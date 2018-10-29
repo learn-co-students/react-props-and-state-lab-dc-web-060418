@@ -38,9 +38,9 @@ Pet.defaultProps = {
     type: "",
     gender: "",
     age: 0,
-    weight: 0
+    weight: 0,
+    isAdopted: true
   },
-  isAdopted: true,
   onAdoptPet: function(id) {}
 };
 
